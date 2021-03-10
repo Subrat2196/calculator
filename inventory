@@ -1,2 +1,2 @@
-localhost ansible_user=bahuguna
+172.16.128.144 ansible_ssh_user=bahuguna ansible_ssh_pass=subrat
 
