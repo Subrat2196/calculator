@@ -1,0 +1,8 @@
+---
+- name: Pull and Run docker image
+  hosts: all
+  tasks:
+  - name: Pull subrat2196/devcalc
+    docker_image:
+      name: subrat2196/devcalc
+      source: pull
