@@ -2,7 +2,7 @@
 - name: Pull and Run docker image
   hosts: all
   tasks:
-  - name: Pull subrat2196/devcalc
+  - name: subrat2196/spe_cal
     docker_image:
-      name: subrat2196/devcalc
+      name: subrat2196/spe_cal
       source: pull
